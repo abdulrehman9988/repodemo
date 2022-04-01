@@ -16,7 +16,7 @@ export default function BasicTextFields() {
         
       <TextField id="outlined-basic" label="Course" variant="outlined" />
  
-
+<Button>add</Button>
 
      <div className='grid gap-x-8 gap-y-4 grid-cols-2 border'>
      <TextField id="outlined-basic" label="Course" variant="outlined" />
