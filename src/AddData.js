@@ -6,6 +6,10 @@ import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 
 export default function AddData() {
+
+   
+      
+
     return (
         <div className='container-fluid border-2 mt-5 p-2 w-full flex justify-center'>
             <div className=' border-2 p-2 border-blue-500 w-full rounded-md  mx-10 '>
@@ -28,7 +32,7 @@ export default function AddData() {
                                 maxWidth: '100%',
                             }}
                         >
-                            <TextField fullWidth label="Enter Topic" id="fullWidth" />
+                            <TextField fullWidth label="Enter Topic" id="fullWidth1" />
                         </Box>
                     </div>
                     <div>
@@ -38,7 +42,7 @@ export default function AddData() {
                                 maxWidth: '100%',
                             }}
                         >
-                            <TextField fullWidth label="Enter Description" id="fullWidth" />
+                            <TextField fullWidth label="Enter Description" id="fullWidth1" />
                         </Box>
                     </div>
 
@@ -46,7 +50,7 @@ export default function AddData() {
 
 
                 <div className='flex justify-center'>
-                    <div>
+                    <div >
                         <Box
                             component="form"
                             sx={{
@@ -56,7 +60,7 @@ export default function AddData() {
                             autoComplete="off"
                         >
 
-                            <TextField id="outlined-basic w-300" label="Enter Fee" variant="outlined" />
+                            <TextField id=" outlined-basic w-300" label="Enter Fee" variant="outlined" />
                         </Box>
                     </div>
                     <div>
@@ -77,6 +81,7 @@ export default function AddData() {
       <Button variant="contained">Add</Button>
       
     </Stack>
+    
     </div>
 
             </div>
